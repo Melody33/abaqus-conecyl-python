@@ -36,8 +36,6 @@ for this to work.
 
 You can access all and more fuctionalities from the Python IDE in Abaqus::
 
-    >>> import sys
-    >>> sys.path.append(r'...\abaqus-conecyl-python')
     >>> from desicos.abaqus.conecyl import ConeCyl
     >>> cc = ConeCyl()
     >>> cc.fromDB('huehne_2008_z07')
